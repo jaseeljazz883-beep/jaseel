@@ -1,7 +1,4 @@
- html, body {
-    overflow-x: hidden;
-    width: 100%;
-}
+
 
 
 header{
@@ -400,6 +397,11 @@ width: 200PX;
 /* ===== MOBILE FIX - ADD AT BOTTOM ===== */
 @media (max-width: 768px) {
 
+
+     html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
     /* 1. Remove fixed width causing side scroll */
     header, .paragraph {
         width: 100%;
